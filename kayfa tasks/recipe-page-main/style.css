@@ -1,0 +1,162 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(30, 54%, 90%);
+  min-height: 220vh;
+  padding: 40px 0;
+}
+
+.image img {
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;  
+}
+
+.hello {
+  padding: 45px;
+}
+
+.hello h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color: hsl(12, 4%, 49%);
+  padding-bottom: 20px;
+}
+
+.hello p {
+  line-height: 1;
+  color: hsl(24, 10%, 30%);
+  font-size: 30px;
+}
+nav {
+  width: 75%;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.Preparation-time {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  background-color: hsl(330, 100%, 98%);
+  padding: 40px 40px;
+  border-radius: 20px;
+  margin: 0 40px 40px 0;
+}
+
+.Preparation-time h1 {
+  color: hsl(332, 51%, 32%);
+  font-size: 40px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+}
+.Preparation-time ul {
+  padding-left: 60px;
+  color: hsl(24, 10%, 30%);
+}
+
+.Preparation-time li {
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+
+.ingredients {
+  padding: 20px 15px;
+}
+
+.ingredients h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color: hsl(14, 45%, 36%);
+  padding-bottom: 10px;
+  padding-left: 40px;
+}
+
+.ingredients ul {
+  padding-left: 60px;
+  color: hsl(24, 10%, 30%);
+}
+
+.ingredients li {
+  margin-bottom: 10px;
+}
+
+
+.instructions {
+  padding: 20px 15px;
+}
+
+.instructions h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color: hsl(14, 45%, 36%);
+  padding-bottom: 10px;
+  padding-left: 40px;
+}
+
+.instructions ol {
+  padding-left: 60px;
+  color: hsl(24, 10%, 30%);
+}
+
+.instructions li {
+  margin-bottom: 10px;
+}
+
+
+
+.nutrition-item {
+  padding: 20px 30px 40px;
+}
+
+.nutrition h1 {
+  color: hsl(14, 45%, 36%);
+  font-size: 26px;
+  padding-bottom: 10px;
+  margin-left: 50px;
+}
+
+.nutrition p {
+  color: hsl(24, 10%, 30%);
+  line-height: 1.6;
+  margin-bottom: 15px;
+  margin-left: 50px;
+}
+
+.nutrition-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.nutrition-item h2 {
+  font-size: 18px;
+  color: hsl(24, 10%, 30%);
+  font-weight: 500;
+}
+
+.nutrition-item h3 {
+  font-size: 18px;
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+

@@ -1,0 +1,176 @@
+    @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 720px;
+    height: 500px;
+    display: flex;
+    border: none;
+    border-radius: 30px;
+    box-shadow: rgb(48, 48, 51, 0.15)0px 12px 50px 0px ;
+}
+.card-left, .card-right{
+    width: 50%;
+    padding: 30px;
+}
+
+.card-left{
+    background-image: linear-gradient(to bottom,hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 30px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-left .circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: linear-gradient(to top,hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-left h3{
+    opacity: 70%;
+    margin-bottom: 30px;
+}
+.card-left .circle h1{
+    font-size: 4.5em;
+}
+.card-left .circle p{
+    opacity: 50%;
+    
+}
+.card-left .message{
+    padding: 30px;
+    text-align: center;
+}
+
+.card-left .message h1{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.card-left .message p{
+    font-size: 1em;
+    opacity: 70%;
+}
+
+
+.card-right h2{
+    opacity: 70%;
+}
+
+.card-right ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+
+
+.card-right li{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+.card-right li .title{
+    display: flex;
+    gap: 10px;
+}
+
+.card-right li .title p{
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.card-right li:nth-child(1) .title p{
+    color:hsl(0, 100%, 67%) ;
+}
+.card-right li:nth-child(2) .title p{
+    color:hsl(39, 100%, 56%) ;
+}
+.card-right li:nth-child(3) .title p{
+    color:hsl(166, 100%, 37%) ;
+}
+.card-right li:nth-child(4) .title p{
+    color:hsl(234, 85%, 45%) ;
+}
+
+.card-right li:nth-child(1) {
+    background-color:hsl(0, 100%, 67%, 0.05) ;
+}
+.card-right li:nth-child(2) {
+    background-color:hsl(39, 100%, 56%,0.05) ;
+}
+
+.card-right li:nth-child(3) {
+    background-color:hsl(166, 100%, 37%,0.05) ;
+}
+.card-right li:nth-child(4) {
+    background-color:hsl(234, 85%, 45%,0.05) ;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items:auto;
+    margin-top: 20px;
+    height: 50px;
+}
+
+.btn button{
+    width: 100%;
+    background-image: linear-gradient(to bottom,hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border: none;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 1em;
+}
+
+.btn button:hover{
+    cursor: pointer;
+    background-image: none;
+    background-color: hsl(224, 30%, 27%);
+}
+
+
+@media (max-width:680px){
+
+    .container{
+        align-items: start;
+    }
+    .card{
+        display: block;
+        
+    }
+
+    .card-left, .card-right{
+        width: 100%;
+    }
+
+    .card-left{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+}
