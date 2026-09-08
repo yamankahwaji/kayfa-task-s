@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(210, 46%, 95%);
+  height: 100vh;
+  width: 100vw;
+  line-height: 1.7;
+  font-size: 13px;
+  font-family: "Barlow Semi Condensed";
+}
+
+.testimonials {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 2;
+  gap: 10px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+header p {
+  opacity: 50%;
+}
+
+header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #996ed9;
+  margin-right: 10px;
+}
+
+.lead {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.quote {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  opacity: 70%;
+}
+
+.card--bg-purple {
+  background-color: hsl(263, 55%, 52%);
+  color: #fff;
+  background-image: url(./images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: 95% 5%;
+  grid-column: 1/3;
+}
+
+.card--bg-grey {
+  background-color: hsl(217, 19%, 35%);
+  color: white;
+}
+
+.card--bg-black {
+  background-color: hsl(219, 29%, 14%);
+  color: white;
+  grid-column: 2/4;
+}
+
+.card--bg-white-short {
+  grid-column: 1;
+}
+
+.card--bg-white-long {
+  grid-column: 4/5;
+  grid-row: 1/3;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>sing up:</h1>
+<form method="POST" action="#">
+<label for="fullName">Full Name:</label>
+<input type="text" id="fullName" name="fullName" required>
+<br><br>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+<br><br>
+
+<label for="password">Password:</label>
+<input type="password" id="password" name="password" minlength="8" maxlength="20" required>
+<br><br>
+
+<label for="website">Website:</label>
+<input type="url" id="website" name="website" required>
+<br><br>
+
+<label for="phone">Phone:</label>
+<input type="tel" id="phone" name="phone" required>
+<br><br>
+
+<label for="age">Age:</label>
+<input type="number" id="age" name="age" required>
+<br><br>
+
+<label for="birthday">Birthday:</label>
+<input type="date" id="birthday" name="birthday" required>
+<br><br>
+
+<label for="files">Upload Files:</label>
+<input type="file" name="files" id="files">
+<br><br>
+
+<input type="hidden" name="user_type" value="regular">
+
+<label for="code">pin code:</label>
+<input type="text" id="code" name="code" pattern="[0-9]{5}" title="enter your pin code">
+<br><br>    
+
+<label>Gender:</label>
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="female"required>
+<label for="female">Female</label>
+<br><br>
+
+<label>Hobbies:</label>
+<input type="checkbox" id="coding" name="hobbies" value="coding">
+<label for="coding">Coding</label>
+<input type="checkbox" id="gaming" name="hobbies" value="gaming">
+<label for="gaming">Gaming</label>
+<input type="checkbox" id="reading" name="hobbies" value="reading">
+<label for="reading">Reading</label>
+<br><br>
+<button type="submit">Send</button>
+</form>
+</body>
+</html
